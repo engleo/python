@@ -12,7 +12,7 @@ while (resposta == 1):
     saldo = int(input("Digite o saldo inicial: "))
     limite = 1000 
     
-    cadastrar_conta(numero, titular,saldo, limite)
+    cadastrar_conta(numero, titular, saldo, limite)
 
 
     
