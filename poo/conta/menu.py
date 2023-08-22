@@ -1,5 +1,5 @@
 from conta import Conta
-import cadastrar_conta
+from cadastrar_conta import cadastrar_conta
 
 def iniciar(): 
     resposta = int(input("Cadastrar nova conta( 1 - Sim / 2 - Não ): "))
