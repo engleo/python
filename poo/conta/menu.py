@@ -22,6 +22,7 @@ while (resposta == 1):
     numero += 1
     resposta = iniciar_cadastrar()
 
+resposta_acessar = acessar_conta()
 
-while (resposta)
+print(conta.saldo)
     
