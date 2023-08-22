@@ -6,10 +6,6 @@ class Data:
     
     def formatada(self):
         if self.mes < 10:
-            print("{}/0{}/{}".format(self.dia, self.mes, self.ano))
+            return "{}/0{}/{}".format(self.dia, self.mes, self.ano)
         else:
-            print("{}/{}/{}".format(self.dia, self.mes, self.ano))
-
-
-d = Data(21,2,2023)
-d.formatada()        
+            return "{}/{}/{}".format(self.dia, self.mes, self.ano)
